@@ -1,0 +1,644 @@
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #000000;
+}
+
+.primary-color {
+    color: #FFBE00;
+}
+
+/* -----------Header-------------- */
+.header {
+    padding: 20px 60px;
+    background: #000000;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+
+    height: 59px;
+    width: 28px;
+}
+
+.logo a {
+    color: #fff;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+
+.nav-links ul li a:hover {
+    color: #FFBE00;
+}
+
+.cv {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    padding: 12px 32px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    cursor: pointer;
+}
+
+.cv-text {
+    background: transparent;
+    margin-right: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.cv:hover {
+    border: 1px solid #FFBE00;
+    background: #FFBE00;
+    transition: 1s;
+}
+
+.cv img {
+    background: transparent;
+    height: 14px;
+    width: 14px;
+}
+
+/* -------------------Jumbotron--------------------- */
+.jumbotron {
+    height: 500px;
+    /* border: 1px solid red; */
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.jumbo-text {
+    height: 500px;
+    /* border: 1px solid red; */
+    width: 575px;
+}
+
+.jumbo-text h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 108px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.jumbo-text .line {
+    width: 192px;
+    border-bottom: 1px solid #FFBE00;
+    margin-bottom: 30px;
+}
+
+.jumbo-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #EEEEEE;
+    margin-bottom: 30px;
+
+}
+
+.jumbo-text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    border: #FFBE00;
+    border-radius: 7px;
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #FFBE00;
+    position: relative;
+    cursor: pointer;
+}
+
+.jumbo-image {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.jumbo-image img {
+    width: 550px;
+    height: 550px;
+}
+
+.jumbo-slide {
+    height: 520px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.jumbo-slide img {
+    width: 100%;
+    height: 520px;
+    float: right;
+}
+
+.ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+
+}
+
+.ellipse img {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.ellipse .btn {
+
+    border: 2px solid #FFBE00;
+    border-radius: 50%;
+
+}
+
+/* -----------------Work--------------------- */
+.work {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(23, 23, 29), rgb(175, 171, 177)) 1 0;
+}
+
+.work .work-text {
+    /* border: 1px solid red; */
+    width: 582px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+}
+
+.work .work-text h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+}
+
+.work .work-text p {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #EEEEEE;
+}
+
+.work-btn {
+    /* border: 1px solid red; */
+    margin-right: 100px;
+    float: left;
+}
+
+/* ---------------What i do---------------- */
+.what .pic{
+    background: transparent;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-right: 1100px;
+    margin-top: 200px;
+
+
+}
+.what {
+    position: relative;
+    padding: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.back {
+    margin-bottom: 150px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.what .back h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-top: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 150px;
+}
+
+.what .cards {
+    position: relative;
+    background: transparent;
+    /* padding-top: 500px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.what .cards .pcard {
+    position: relative;
+    /* border: 1px solid linear-gradient(to right, rgb(23, 23, 29), rgb(175, 171, 177)); */
+    /* border: 1px solid rgb(175, 171, 177); */
+    /* box-shadow: 1px 0.5px 0.8px 0.5px; */
+    box-shadow: inset 1px 1px 1px 0 rgb(23, 23, 29), inset 0 0 1px 1px rgb(175, 171, 177);
+    height: 225px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    /* border-image: linear-gradient(to right, rgb(23, 23, 29), rgb(175, 171, 177)) 1 1; */
+    background: linear-gradient(356.19deg, rgba(23, 35, 22, 0.1) 11.08%, rgba(255, 255, 255, 0.1) 120.12%);
+    backdrop-filter: blur(50px);
+
+}
+
+.what .cards .pcard:hover {
+    background: #FFBE00;
+    box-shadow: inset 1px 1px 1px 0 rgb(23, 23, 29), inset 0 0 1px 1px rgb(175, 171, 177);
+
+}
+
+.what .cards .pcard:hover p {
+    color: #000000;
+    font-weight: 600;
+
+}
+
+.what .cards .pcard img {
+    height: 70px;
+    width: 70px;
+    background: transparent;
+    margin-bottom: 46px;
+    border-radius: 50%;
+}
+
+.what .cards .pcard p {
+    background: transparent;
+}
+
+/* ----------------Tools------------------ */
+
+.tools {
+    padding: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.tools h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-top: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tools .cards {
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 80px;
+}
+
+
+/* -------------Recent------------------- */
+.recent .pic{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 1030px;
+    margin-bottom: 1100px;
+
+
+}
+.recent {
+    padding: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.recent a {
+    /* width: 223px; */
+    /* height: 50px; */
+    margin: 73px;
+    margin-bottom: 0px;
+    /* margin-top: 20px; */
+    text-align: center;
+    /* justify-content: center; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFBE00;
+    border: 1px solid #FFBE00;
+    border-radius: 7px;
+    /* padding: 12px 32px; */
+    font-size: 14px;
+    font-weight: 600;
+    background: #000000;
+    padding: 13px 70px;
+    /* position: relative; */
+    cursor: pointer;
+
+}
+
+.recent h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 49px;
+    margin-bottom: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-top: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.recent .dcards {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.recent .pcard {
+    position: relative;
+}
+
+.recent .pcard p {
+    display: flex;
+    background: transparent;
+    position: absolute;
+    width: 263px;
+    height: 102px;
+    left: 50px;
+    top: 131px;
+    /* font-family: 'Montserrat'; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: auto;
+
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+/* ------------Footer--------------- */
+.footer {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-text {
+    /* background: rgba(255, 255, 255, 0.05); */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.footer-text .text {
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    width: 540px;
+    /* height: 90px; */
+    /* left: 243px; */
+    /* top: 3412px; */
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.footer-text .text p {
+    background: transparent;
+    margin-left: 20px;
+    /* background: rgba(255, 255, 255, 0.05); */
+}
+
+.footer-text .text img {
+    background: transparent;
+}
+
+.footer-text .icons {
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    /* justify-content: space-around; */
+    gap: 46px;
+
+}
+
+.footer-text .icons img {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.links {
+    background: transparent;
+    /* margin: 23px; */
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+
+
+}
+
+.footer .links h1 {
+    background: transparent;
+    /* border: 1px solid red; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 23px;
+    cursor: pointer;
+
+}
+
+.footer .links p {
+    background: transparent;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.contact {
+    padding-top: 25px;
+    background: transparent;
+    /* margin: 23px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+
+}
+
+.footer .contact h1 {
+    background: transparent;
+    /* border: 1px solid red; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 23px;
+    cursor: pointer;
+
+}
+
+.footer .contact p {
+    background: transparent;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/* ---------------footer end----------------- */
+.footerend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background: #FFBE00;
+}
+
+.footerend p {
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    /* font-feature-settings: 'liga' off; */
+}
