@@ -2,8 +2,12 @@
     font-family: Montserrat;
     margin: 0;
     padding: 0;
-    color: #fff;
+    
+    /* background: #000000; */
+}
+body{
     background: #000000;
+    color: #fff;
 }
 
 .primary-color {
@@ -110,18 +114,16 @@ nav {
 
 /* -------------------Jumbotron--------------------- */
 .jumbotron {
-    height: 500px;
+    /* height: 500px; */
     /* border: 1px solid red; */
-    padding-left: 60px;
-    padding-top: 60px;
-    padding-right: 60px;
+    padding: 60px 60px 0px 60px;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
 .jumbo-text {
-    height: 500px;
+    /* height: 500px; */
     /* border: 1px solid red; */
     width: 575px;
 }
@@ -167,30 +169,31 @@ nav {
 }
 
 .jumbo-image {
+    height: 500px;
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .jumbo-image img {
-    width: 550px;
-    height: 550px;
+    width: 100%
+    /* height: 550px; */
 }
 
 .jumbo-slide {
-    height: 520px;
+    /* height: 520px; */
     /* border: 1px solid red; */
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+    justify-content: center; */
+    /* margin-bottom: 40px; */
 }
 
 .jumbo-slide img {
     width: 100%;
-    height: 520px;
+    /* height: 520px; */
     float: right;
 }
 
@@ -504,7 +507,7 @@ nav {
     padding: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -518,7 +521,7 @@ nav {
 }
 
 .footer-text .text {
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -546,7 +549,7 @@ nav {
 }
 
 .footer-text .icons {
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
     display: flex;
     align-items: center;
     padding-left: 40px;
@@ -554,11 +557,12 @@ nav {
     gap: 46px;
 
 }
-
-.footer-text .icons img {
-    background: rgba(255, 255, 255, 0.05);
+.footer .links0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
-
 .links {
     background: transparent;
     /* margin: 23px; */
@@ -641,4 +645,264 @@ nav {
     color: #000000;
     cursor: pointer;
     /* font-feature-settings: 'liga' off; */
+}
+#ham{
+    display: none;
+}
+/* -----------------REsponsive---------------------------- */
+
+.header .nav-links ul .cv{
+    display: none;
+}
+
+.nav-links2{
+    position: absolute;
+    top: -280px;
+    left: 0;
+    right: 0;
+    color: #000;
+    transition: top 0.8s ease-in-out;
+}
+.nav-links2 ul{
+    background-color: #FFBE00 !important;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.nav-links2 ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.nav-links2 ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.cross{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+.cross i{
+    font-size: 30px;
+}
+@media (max-width:1050px){
+    #ham{
+        display: block;
+    }
+    .cv{
+        display: none;
+    }
+
+    .nav-links{
+        display: none;
+    }
+    .header nav{
+        justify-content: space-between;
+    }
+    .cv.cv2{
+        display: block;
+        background-color: #000;
+        
+    }
+    .jumbotron{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .jumbotron .jumbo-text{
+        width: 100%;
+        text-align: center;
+        /* padding: 30px; */
+    }
+  
+    .jumbotron .jumbo-text h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: 0.05em;
+        /* margin-bottom: 20px; */
+    }
+    .jumbo-image{
+        display: none;
+    }
+    .jumbo-slide{
+        display: none;
+    }
+    .jumbo-text .line{
+        width: 100%;
+    }
+    .jumbo-text a,p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    /* ---------Work-------- */
+    .work{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* width: 100%; */
+        text-align: center;
+    
+
+    }
+    .work .work-text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .work .work-text h1{
+        margin-bottom: 20px;
+    }
+    .work .work-btn{
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .work .work-btn img{
+        /* width: 100%; */
+        height: 100px;
+        /* margin: auto; */
+        /* height: 100px; */
+        /* display: flex; */
+       
+    }
+    .pic img{
+        display: none;
+    }
+    .what {
+        margin: 0px;
+    }
+    .what .back{
+        margin-bottom: 50px;
+        margin-top: 0px;
+       
+    }
+    
+    .back img{
+        justify-content: center;
+        height: 40px;
+        width: 100%;
+    }
+    .back h1{
+        font-size: 40px;
+
+    }
+    
+    .what .cards{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .tools{
+        padding: 0px;
+        margin-top: 0px;   
+    }
+    .tools .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .tools .back{
+        margin-bottom: 50px;
+        margin-top: 0px;
+       
+    }
+    .recent{
+        
+        padding: 0px;
+        margin-top: 50px;  
+
+    }
+    .recent .dcards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .recent .back{
+        margin-bottom: 70px;
+        margin-top: 0px;
+       
+    }
+    .recent a{
+        margin: 50px;
+    }
+    .footer{
+        /* background: #FFBE00;
+        color: #000000; */
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    .footer .footer-text .text{
+        padding: 0px;
+        width: 100%;
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-text .text p {
+        font-size: 16px;
+        color: #FFBE00;
+        margin-left: 0px;
+    }
+    .footer-text .icons{
+        padding-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .links0{
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .links0 p{
+        font-size: 16px;
+        /* color: #FFBE00; */
+        text-align: left;
+        line-height: 20px;
+        /* align-items: center; */
+        justify-content: start;
+    }
+    .footer .links0 h1{
+        /* margin-top: 0px; */
+        font-size: 22px;
+        /* color: #FFBE00; */
+        margin-bottom: 10px;
+    }
+ 
+   
+ 
+
 }
